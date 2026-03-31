@@ -3,7 +3,7 @@ on:
   push:
     branches: ['main']
 jobs:
-  push_to_docker_hub: 
+  push_to_docker_hub:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
@@ -15,9 +15,9 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-        - name: Build and push Docker image
-          uses: docker/build-push-action@V4
-          with:
-            context: .
-            push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/next-express-zustand-github-action-docker:latest
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/next-express-zustand-github-action-docker:latest
