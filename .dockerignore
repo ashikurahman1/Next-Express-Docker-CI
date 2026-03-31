@@ -1,0 +1,8 @@
+node_modules
+.next
+dist
+out
+.git
+.env
+npm-debug.log
+secret.txt

@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[25211,["/_next/static/chunks/0dbhjjzl8qfwv.js","/_next/static/chunks/00z4s1.fnkn51.js"],"default"]
+3:I[97367,["/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"bg-linear-90 from-purple-600 to-indigo-600 min-h-screen flex flex-col gap-10 items-center justify-center","children":[["$","h1",null,{"className":"text-3xl md:text-5xl text-slate-100 font-semibold text-center max-w-4xl mx-auto leading-tight ","children":"Hello World! We are now practicing Tailwind CSS, Frontend and Backend in Same folder, also Dockerize with Github Actions"}],["$","$L2",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/00z4s1.fnkn51.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"roZ8wYGgEHk-zPdJFCljz"}
+5:null
